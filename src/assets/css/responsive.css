@@ -1,0 +1,205 @@
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .navImg {
+        flex-basis: 50% !important;
+        justify-content: space-between !important;
+    }
+    .navImg img {
+        width: 70% !important;
+        margin-left: -34px !important;
+    }
+    .navBarMain {
+        margin: 0 !important;
+    }
+    .navbar-collapse {
+        border: 1px solid black !important;
+        margin: 15px 0 3px !important;
+        padding: 20px !important;
+    }
+    .navMenuListItem {
+        padding-left: 9px 16px !important;
+    }
+ 
+    .carousel-caption {
+        width: 80% !important;
+        margin: 0 0 0 50px;
+        padding-top: 4rem !important;
+    }
+    .box {
+        margin-top: 25px;
+        flex-direction: column;
+    }
+    .boxImg {
+        position: relative;
+        width: 100% !important;
+    }
+    .boxInfo {
+        display: none;
+    }
+    .userImg {
+
+        display: none;
+    }
+    .authors {
+        display: none !important;
+    }
+    .bannerTitle {
+        font-size: 36px !important;
+        line-height: 45px !important;
+    }
+    .authorTitle {
+        display: none !important;
+    }
+    .boxImg img {
+        height: 442px !important;
+    }
+    .boxImg::before {
+        height: 443px !important;
+    }
+    .box-info{
+        margin-top: 150px !important;
+    }
+    .single-boxes{
+        margin-top: 200px;
+    }
+    .single-box{
+        margin-top: 400px;
+    }
+    .footerForm {
+        margin-top: 38px !important;
+    }
+    .footerList {
+        margin-top: 38px !important;
+    }
+    .footerImg {
+        margin-left: 60px !important;
+    }
+    .copyrightTitle {
+        text-align: center;
+    }
+    .ButtonTitle {
+        display: block;
+        text-align: center;
+    }
+    .footerForm form input {
+        width: 90% !important;
+    }
+    .submit {
+        width: 45% !important;
+        display: block !important;
+        margin: 15px 75px;
+    }
+    .footerForm {
+	    margin-left: 20px !important;
+    }
+    .footerLogo {
+	    margin-left: 20px !important;
+    }
+    .footerList {
+	    margin-left: 20px !important;
+    }
+    .list {
+	    max-width: 90% !important;
+    }
+    .pt-80 {
+        padding-top: 0 !important;
+    }
+ 
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .userImg {
+        display: none !important;
+    }
+    .comment {
+        margin-bottom: 0 !important;
+        display: none !important;
+    }
+    .copyrightTitle {
+        text-align: center;
+    }
+    .authorTitle {
+        display: none !important;
+    }
+    .navImg img {
+        width: 50% !important;
+        margin-left: -20px !important;
+    }
+    .navBarMain {
+        margin: 0 !important;
+    }
+    .navbar-collapse {
+        border: 1px solid black !important;
+        margin: 15px 0 3px !important;
+        padding: 20px !important;
+    }
+    .navMenuListItem {
+        padding-left: 9px 16px !important;
+    }
+    .carousel-caption {
+        width: 60% !important;
+    }
+    .single-boxes{
+        margin-top: 200px;
+    }
+    .single-box{
+        margin-top: 400px;
+    }
+    .footerLogo {
+        margin-left: 39px !important;
+    }
+    .footerList {
+        margin-top: 45px !important;
+    }
+    .footerImg {
+        margin-left: 31px !important;
+        margin-top: 56px !important;
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navImg img {
+        width: 60% !important;
+        margin-left: 10px !important;
+    }
+    .navBarMain {
+        margin: 0 0 0 9rem !important;
+    }
+    .carousel-caption {
+        left: 32% !important;
+        width: 57% !important;
+    }
+    .boxImg img {
+        height: 413px !important;
+    }
+    .boxImg::before {
+        height: 413px !important;
+    }
+    .img img {
+        height: 413px !important;
+    }
+    .footerLogo {
+        text-align: left;
+        margin-left: 58px !important;
+    }
+    .footerList {
+        text-align: left;
+        margin-left: 53px !important;
+        margin-top:50px;
+    }
+    .footerImg {
+        margin-right: 0;
+        margin-left: 100px !important;
+        margin-top: 60px !important;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+
+
+}

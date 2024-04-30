@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.mt-200{
+    margin-top: 200px;
+}
+.mb-150{
+    margin-bottom: 150px;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Top Navigation */
+.mainNavBar {
+    background-color: #fff !important;
+    padding-top: 25px !important;
+    position: absolute;
+    z-index: 999;
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+.mainNavBarScroll{
+    background-color: #ffffff;
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    border-bottom: 1px solid rgba(232, 232, 232, 0.097);
+}
+.navBar{}
+.navImg {
+    margin: 0 0 0 3rem;
+}
+.navImg img {
+	width: 40%;
+	margin-left: 91px;
+}
+.navBarMain {
+    margin: 0 0 0 28rem;
+}
+.navMenuListItem {
+    padding: 0 16px !important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    text-transform: capitalize;
+    color: black !important;
+    cursor: pointer;
+}
+.navMenuListItem:first-child{
+    color: #009cff !important;
+}
+.navMenuListItem:hover{
+    color: #009cff !important;
+    transition: 1s;
+}
+.navMenuIcon{}
+
+/* TopBanner Area */
+.carousel-indicators {
+    display: none !important;
+}
+.BannerArea{
+    position: relative;
+    width: 100%;
+    min-height: 500px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BannerArea:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    min-height: 500px !important;
+    color: white;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 6%, rgba(145,145,145,0.022934173669467817) 53%, rgba(0,0,0,1) 100%);
+    z-index: 3;
+    opacity: .9;
+}
+.sliderImg{
+    min-height: 550px !important;
+}
+.carousel-caption {
+    position: absolute;
+    top: 45% !important;
+    left: 35% !important;
+    width: 50%;
+    transform: translate(-50%, -50%) !important;
+    color: #fff;
+    z-index: 99;
+    text-align: justify !important;
+}
+.bannerLink {
+    border: 1px solid #009cff;
+    padding: 5px 11px;
+    display: inline-block;
+    border-radius: 15px;
+    color: white;
+    font-size: 10px;
+    background-color: #009cff;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.bannerLink:hover{
+    background-color: white;
+    color: black;
+    border-color: #000000 !important;
+    transition: .7s;
+    border-color: transparent;
+}
+.bannerTitle {
+    font-size: 44px;
+    font-weight: 600;
+    max-width: 558px;
+    margin: 18px 0 0;
+    text-align: left;
+    line-height: 57px;
+    font-family: 'Monserrat', sans-serif;
+}
+.bannerSubTitle {
+    max-width: 427px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px 0 22px;
+    text-align: left;
+    color: white;
+}
+.authors{
+    margin-left: -15px !important;
+}
+.authorSection{
+    color: #e1e1e1;
+}
+.authorSection:hover, .authorComment:hover{
+    color: white;
+    transition: .7s;
+    cursor: pointer;
+}
+.userImg{
+    border-radius: 50%;
+    max-width: 15%;
+}
+.authorTitle {
+    font-size: 14px;
+    margin-bottom: 0 !important;
+    padding-left: 5px;
+}
+.authorComment {
+    margin-left: -43px;
+    color: #e1e1e1;
+}
+.comment{
+    margin-bottom: 0 !important;
+}
+.commentIcon{}
+
+/* EditorNews Area */
+.sectionTitle{}
+.Title {
+    font-size: 25px;
+    color: rgb(29, 29, 29);
+    font-family: "Monserrat", sans-serif;
+    font-weight: 600;
+    border-bottom: 3px solid black;
+    max-width: 225px;
+}
+.box{
+    margin-top: 25px;
+}
+.boxImg {
+    position: relative;
+    width: 1020px;
+}
+.boxImg::before{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    z-index: 3;
+    opacity: 0.4;
+    width: 100%;
+    height: 336px;
+    transition: 1s;
+    top: 0;
+    left: 0;
+}
+.boxImg:hover:before{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    z-index: 3;
+    opacity: 0.7;
+    width: 100%;
+    height: 336px;
+    transition: 1s;
+    top: 0;
+    left: 0;
+}
+.boxImg img {
+    max-width: 100%;
+    height: 336px;
+}
+.boxInfo {
+    box-shadow: 0 4px 21px 0 rgba(109, 109, 109, 0.1);
+    background: #FFF;
+    padding: 27px 24px 12px;
+}
+.boxInfoTitle {
+    font-size: 25px;
+    font-weight: 700;
+}
+.authorBoxComment{
+    color: rgb(73, 73, 73);
+}
+.authorBoxComment:hover{
+    color: black;
+}
+.authorBoxTitle{
+    color: rgb(73, 73, 73);
+}
+.authorBoxTitle:hover{
+    color: black;
+}
+.img{
+    margin-top: 25px;
+}
+.img img{
+    width: 100%;
+}
+.editorBox{
+    position: relative;
+}
+.editorBox::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: .3;
+    z-index: 3;
+    transition: .7s;
+}
+.editorBox:hover:before{
+    background-color: #000000;
+    opacity: .6;
+    transition: 1s;
+}
+.editorBox img {
+    width: 100%;
+}
+.editorBoxOverlay{
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    text-align: left;
+    padding: 30px 25px;
+}
+.editorInfoTitle {
+    color: white;
+    font-size: 26px;
+    line-height: 34px;
+}
+.bannerSubTitles {
+    max-width: 427px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    text-align: left;
+    color: white;
+}
+.editorInfoTitles {
+    font-size: 23px;
+    line-height: 31px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    text-align: left;
+}
+.author {
+    position: absolute;
+    z-index: 99;
+    background-color: #FFF;
+    box-shadow: 0 4px 21px 0 rgba(109, 109, 109, 0.1);
+    padding: 29px;
+}
+.editorInfoTitles:hover{
+    color: #009cff;
+    transition: 1s;
+}
+
+/* Weeks News */
+.boxInfos {
+    box-shadow: 0 4px 21px 0 rgba(109, 109, 109, 0.1);
+    background: #FFF;
+    padding: 27px 24px 10px;
+}
+.color{
+    background-color: #083b5c;
+}
+.boxInfoTitles{
+    color: white;
+}
+.boxInfoSubTitles{
+    color: white;
+}
+
+.Button{}
+.ButtonTitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    background-color: #009cff;
+    border: 1px solid transparent;
+    padding: 12px 55px;
+}
+.ButtonTitle:hover{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    transition: 1s;
+}
+
+/* Footer Area */
+.footerArea{
+    background-color: #000000;
+}
+.footerLogo {
+    text-align: left;
+    margin-left: 109px;
+}
+.footer-title {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 24px;
+    color: white;
+}
+.brandsIcon {
+    text-align: center;
+    margin-top: 30px;
+}
+.icon {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid transparent;
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+.icon:hover{
+    color: white;
+}
+.footerForm{
+    text-align: left;
+    margin-left: 50px;
+}
+.footerFormTitle {
+    font-size: 24px;
+    color: white;
+    padding-bottom: 10px;
+}
+.footerFormSubTitle{
+    font-size: 16px;
+    color: white;
+    max-width: 350px;
+    padding-top: 10px;
+}
+.footerForm form{}
+.footerForm form input{
+    width: 70%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.submit{
+    display: block;
+    background-color: #009cff;
+    color: white;
+    width: 70%;
+    border-radius: 0;
+}
+.footerList {
+    text-align: left;
+    margin-left: 44px;
+}
+.list {
+    padding-left: 0 !important;
+    max-width: 266px;
+}
+.listMainTitle{
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+.listMainTitle:last-child{
+    border-bottom: none;
+}
+.listTitle{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.listTitle:hover{
+    color: white;
+}
+.footerImg{
+    margin-right: 70px;
+}
+.copyright{
+    padding: 75px 0 25px;
+}
+.copyrightTitle{
+    color: white;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+}
